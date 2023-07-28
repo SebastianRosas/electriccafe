@@ -46,12 +46,11 @@ a{
   }
 
 .navBar{
+    display: block;
     z-index: 1;
     display: flex;
-    -webkit-display: flex;
-    justify-content: end;
-    -webkit-justify-content: end;
     padding-right: 1vw;
+    justify-content: end;
     padding-top: 1vh;
 }
   
@@ -74,7 +73,7 @@ a{
 }
 
 .ulList{
-    line-height: 8vh;
+    line-height: 80px;
 }
 
 .footer{
@@ -105,8 +104,8 @@ a{
 }
 
 #menu-container li {
-    padding-top: 1vh;
-    padding-left: 1vw;
+    padding-top: 10.8px;
+    padding-left: 10.8px;
 }
 
 #menu-container li a {
@@ -173,7 +172,7 @@ a{
     position: absolute;
     bottom: 1vh;
     right: 1vw;
-    width: 3%;
+    width: 60px;
 }
 
 .lengujeContentContainer{
@@ -235,6 +234,22 @@ a{
     font-family: "Din-pro-regular";
 }
 
+.esp{
+    padding-right: 10px;
+}
+
+/* 13 INCH */
+
+@media only screen and (max-width: 1280px) {
+    .menuOption{
+        font-size: 60px;
+        line-height: 45px;
+        width: 35%;
+    }
+
+
+    }
+
 
 /* MOBILE */
 
@@ -260,7 +275,7 @@ a{
         text-decoration: none;
         color:var(--textColor);
         font-size: 250%;
-        line-height: 4vh;
+        line-height: 40px!important;
         width: 35%;
     }
 
@@ -271,12 +286,6 @@ a{
         bottom: 1vh;
     }
 
-    .lengujeContentContainer{
-        position: absolute;
-        bottom: 1vh;
-        right: 1vw;
-        width: 15%;
-    }
 
     .about-image{
         left: 1vw;
