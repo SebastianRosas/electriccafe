@@ -252,6 +252,20 @@ a{
         width: 45%;
     }
 
+    /* 13 INCH */
+
+@media only screen and (max-width: 1100px) {
+    .menuOption{
+        font-size: 60px;
+        line-height: 45px;
+        width: 35%;
+    }
+
+    .about-image{
+        left: 1vw;
+        width: 45%;
+    }
+
 /* 13 INCH NEWS*/
 
     }
