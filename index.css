@@ -48,7 +48,9 @@ a{
 .navBar{
     z-index: 1;
     display: flex;
+    -webkit-display: flex;
     justify-content: end;
+    -webkit-justify-content: end;
     padding-right: 1vw;
     padding-top: 1vh;
 }
